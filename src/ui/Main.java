@@ -57,7 +57,8 @@ public static void main (String[] args){
 	/**SHOW THE MENU*/
  System.out.println();
  System.out.println("// WELCOME TO THE " + consecionario.getName().toUpperCase() +  "//");
- System.out.println(MENU); 
+ System.out.println(MENU);
+ System.out.println("TOTAL NUMBER SALES: " + consecionario.getNumberSale());
  
  option = sc.nextInt();
  sc.nextLine();

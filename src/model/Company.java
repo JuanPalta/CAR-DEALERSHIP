@@ -116,7 +116,7 @@ public class Company{
 	*/
  public void setNumberSale(int numberSale){
 	
-	numberSale += numberSale;
+	this.numberSale += numberSale;
 }
 
  /** Get the sellers in the company
